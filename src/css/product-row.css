@@ -1,0 +1,61 @@
+.cart-item{
+	background: white;
+	font-weight: 600;
+	font-size: 14px;
+	border-top: 1px solid #f1f1f1;
+	padding: 12px;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+}
+.cart-item:first-child{
+	border: 0;
+}
+.cart-right{
+	margin-left: 115px;
+	min-width: 150px;
+}
+.cart-item-img{
+	width: 100px;
+	float: left;
+}
+.cart-item-name{
+	margin-bottom: 15px;
+}
+.cart-item-attributes{
+	margin-bottom: 10px;
+}
+.cart-item-attributes dt{
+	float: left;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.cart-item-attributes dd{
+	margin-left: 70px;
+}
+.cart-item-attributes .price{
+	vertical-align: top;
+	padding: 0 3px;
+}
+.cart-item-del{
+	float: right;
+}
+.cart-total{
+	clear: both;
+	text-align: right;
+	padding: 10px 15px;
+	border-top: 1px solid gainsboro;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.cart-checkout{
+	text-align: center;
+	padding: 15px;
+	border-top: 1px solid gainsboro;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
